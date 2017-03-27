@@ -22,7 +22,7 @@ def print_spiral(matrix):
     # d max_right - 1
     answer = ""
     while max_top <= max_bot and max_left <= max_right:
-        answer += str(matrix[x][y])+" "
+        answer += str(matrix[x][y]) + " "
         if direction == 'r':
             x += 1
             if x == max_right:
